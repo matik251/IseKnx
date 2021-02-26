@@ -54,12 +54,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataPointsUsageExample.cs" />
     <Compile Include="IscApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SdCardUsageExample.cs" />
-    <Compile Include="Serial\SerialPortUsageExample.cs" />
-    <Compile Include="UserPartitionUsageExample.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

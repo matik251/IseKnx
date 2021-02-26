@@ -8,7 +8,6 @@ using System.Xml.Linq;
 using IIscAppLoaderInterfaces;
 using log4net;
 using Newtonsoft.Json;
-using SampleApp.Serial;
 
 namespace SampleApp
 {
@@ -21,8 +20,6 @@ namespace SampleApp
         private static readonly ILog Logger = LogManager.GetLogger(typeof(IscApp));
 
         private IIscAppConnector _appHost;
-
-        private SerialPortUsageExample _serialPortUsageExample;
 
         void IIscApp.Init(IIscAppConnector iscAppHost)
         {
